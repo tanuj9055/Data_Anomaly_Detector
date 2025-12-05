@@ -1,0 +1,6 @@
+issue_type,row_count
+duplicates,250
+missing_values,549
+invalid_formats,166
+outliers_iqr,77
+anomalies_isolation_forest,58

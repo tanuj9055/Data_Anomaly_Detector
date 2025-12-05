@@ -1,0 +1,6 @@
+issue_type,row_count,severity_label,severity_score,total_severity_score
+duplicates,250,High,3,750
+missing_values,549,Medium,2,1098
+invalid_formats,166,High,3,498
+outliers_iqr,77,Medium,2,154
+anomalies_isolation_forest,58,Critical,4,232
