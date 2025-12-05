@@ -36,7 +36,7 @@ class DataQualityAnomalyDetector:
         return d
 
     def find_missing_values(self):
-        m = self.df[self.df.isna().any(1)]
+        m = self.df[self.df.isna().any(axis=1)]
         self.results["missing_values"] = m
         return m
 
